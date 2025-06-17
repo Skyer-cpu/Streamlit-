@@ -44,4 +44,4 @@
 ### 1. Установка зависимостей
 Убедитесь, что у вас установлен Python 3.7 или выше. Установите необходимые библиотеки:
 ```bash
-pip install streamlit yfinance pandas numpy seaborn matplotlib
+pip install -r requirements.txt
