@@ -27,10 +27,6 @@ charset-normalizer
 click
 colorama
 comm
-conda
-conda-libmamba-solver
-conda-package-handling
-conda_package_streaming
 contourpy
 curl_cffi
 cycler
