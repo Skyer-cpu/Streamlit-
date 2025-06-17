@@ -81,7 +81,6 @@ jupyterlab_server
 jupyterlab_widgets
 kernel
 kiwisolver
-libmambapy
 magic-filter
 MarkupSafe
 matplotlib
