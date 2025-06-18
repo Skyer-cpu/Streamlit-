@@ -54,18 +54,18 @@ Docker
 ## 🚀 Как запустить приложение
 
 1. Убедитесь, что Docker установлен на вашем компьютере:
-   - [Скачать Docker](https://www.docker.com/products/docker-desktop) для Windows или macOS.
-   - Для Linux: следуйте [официальной инструкции по установке Docker](https://docs.docker.com/engine/install/).
+   - https://www.docker.com/products/docker-desktop - для Windows или macOS.
+   - Для Linux: следуйте официальной инструкции по установке Docker - https://docs.docker.com/engine/install/
 
 2. Откройте терминал и выполните следующую команду, чтобы загрузить образ из Docker Hub:
 
-   ```bash
+   
    docker pull skyercpu/apple-quotes-app:latest
 
 
     Запустите контейнер с приложением:
 
-    docker run -p 8501:8501 your-dockerhub-username/streamlit-app:latest
+    docker run -p 8501:8501 your-dockerhub-username/apple-quotes-app:latest
 
     Откройте браузер и перейдите по адресу:
 
@@ -75,7 +75,7 @@ Docker
 
 Если порт 8501 уже занят, вы можете указать другой порт. Например:
 
-docker run -p 8080:8501 your-dockerhub-username/streamlit-app:latest
+docker run -p 8080:8501 your-dockerhub-username/apple-quotes-app:latest
 
 
 В этом случае приложение будет доступно по адресу:
@@ -87,9 +87,3 @@ http://localhost:8080
 
     Docker версии 20.10 или выше.
     Подключение к интернету для загрузки образа.
-
-📄 Описание образа
-
-    Имя образа: your-dockerhub-username/streamlit-app
-    Тег: latest
-    Порт по умолчанию: 8501
