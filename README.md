@@ -43,7 +43,7 @@
 
 ### 1. Установка зависимостей
 Убедитесь, что у вас установлен Python 3.7 или выше. Установите необходимые библиотеки:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 ```bash
 
 
